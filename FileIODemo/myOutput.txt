@@ -1,0 +1,4 @@
+Library{name=B, totalNumberOfBooks=4564, membershipFee=9.88}
+Library{name=Maryville, totalNumberOfBooks=432, membershipFee=99.98}
+Library{name=Oxford, totalNumberOfBooks=122345, membershipFee=100.0}
+Library{name=MIT, totalNumberOfBooks=345, membershipFee=234.54}
