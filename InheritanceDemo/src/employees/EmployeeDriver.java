@@ -21,6 +21,12 @@ public class EmployeeDriver {
         
         HourlyEmployee hrEmp = new HourlyEmployee("Byron", "Williams", "123-45-6789", 15, 10);
         System.out.println(hrEmp); 
+        
+        //emp = hrEmp;//assigning a sub class instance to a 
+        //super class instance -- polymorphic substitution
+        //hrEmp = emp;//illegal.
+        Employee emp1 = new HourlyEmployee("A", "B", "09876", 34, 12);
+        System.out.println(emp1.toString());
    }
     
 }
